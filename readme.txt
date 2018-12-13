@@ -1,3 +1,5 @@
+Created in Gamemaker Studio
+
 Conway's game of life is a '0-player' game, 
 where it updates itself according to a set amount of parameters.
 This is a simulation, where you can adjust said parameters.
