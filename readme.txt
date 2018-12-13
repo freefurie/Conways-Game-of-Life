@@ -20,9 +20,10 @@ PARAMETERS:
 	The amount of times it goes through the proces. At zero it only does the initial random seeding.
 	Recommended value: 1
 - Size of tile:
-	How big the tiles are gonna be. If at 1, it'll work on a per pixel base, so give it time to load (estimate 10 seconds).
+	How big the tiles are gonna be.
 	Only changeable when no simulation is running.
 	Recommended value: 4
+	(WARNING: DEPENDING ON COMPUTER SPECS, LOWER SIZES (1 OR 2) MAY BREAK THE APPLICATION)
 
 BUTTONS:
 - Start:
@@ -34,3 +35,13 @@ BUTTONS:
 	Swap the blue and green color.
 - Stop:
 	Stop and wipe the simulation, allowing to start over.
+
+
+
+SPECIAL THANKS TO:
+- Danie Hofmann, for showing how conway's game of life works, and how to reproduce it using code:
+	https://youtu.be/xNqqfABXTNQ
+- GravityShift Games, for providing a tutorial on menu sliders:
+	https://www.youtube.com/watch?v=vzIV_c81ovk
+- MaddeMichael, for information on camera's and giving a quick zoom and pan system:
+	https://forum.yoyogames.com/index.php?threads/guide-meet-the-new-camera-system.12269/
